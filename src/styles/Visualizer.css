@@ -1,0 +1,14 @@
+.visualizer-container {
+  width: 100%;
+  background-color: var(--primary-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.visualizer-canvas {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background: radial-gradient(circle, #1a1a2e, #0a0a0e);
+}
